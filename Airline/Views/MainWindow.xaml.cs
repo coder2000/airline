@@ -1,10 +1,12 @@
+using System.Composition;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
 namespace Airline.Views
 {
-    public class MainWindow : Window
+    [Export]
+    public partial class MainWindow : Window
     {
         public MainWindow()
         {
