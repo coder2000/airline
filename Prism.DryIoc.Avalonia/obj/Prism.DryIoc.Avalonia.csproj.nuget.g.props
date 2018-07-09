@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">/home/dieter/Projects/Airline/Prism.DryIoc.Avalonia/obj/project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/dieter/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/dieter/.nuget/packages/;/usr/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(Language)' == 'C#' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Compile Include="$(NuGetPackageRoot)dryioc/2.12.5/contentFiles/cs/any/Container.cs" Condition="Exists('$(NuGetPackageRoot)dryioc/2.12.5/contentFiles/cs/any/Container.cs')">
+      <NuGetPackageId>DryIoc</NuGetPackageId>
+      <NuGetPackageVersion>2.12.5</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>Container.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)dryioc/2.12.5/contentFiles/cs/any/FastExpressionCompiler.cs" Condition="Exists('$(NuGetPackageRoot)dryioc/2.12.5/contentFiles/cs/any/FastExpressionCompiler.cs')">
+      <NuGetPackageId>DryIoc</NuGetPackageId>
+      <NuGetPackageVersion>2.12.5</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>FastExpressionCompiler.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)dryioc/2.12.5/contentFiles/cs/any/ImTools.cs" Condition="Exists('$(NuGetPackageRoot)dryioc/2.12.5/contentFiles/cs/any/ImTools.cs')">
+      <NuGetPackageId>DryIoc</NuGetPackageId>
+      <NuGetPackageVersion>2.12.5</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>ImTools.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)dryioc/2.12.5/contentFiles/cs/any/Ported-net.cs" Condition="Exists('$(NuGetPackageRoot)dryioc/2.12.5/contentFiles/cs/any/Ported-net.cs')">
+      <NuGetPackageId>DryIoc</NuGetPackageId>
+      <NuGetPackageVersion>2.12.5</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>Ported-net.cs</Link>
+    </Compile>
+  </ItemGroup>
+</Project>

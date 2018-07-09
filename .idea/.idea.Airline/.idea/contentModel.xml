@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_Airline.-731915495.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/dryioc/2.12.5/contentFiles/cs/any/Container.cs" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/dryioc/2.12.5/contentFiles/cs/any/FastExpressionCompiler.cs" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/dryioc/2.12.5/contentFiles/cs/any/ImTools.cs" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/dryioc/2.12.5/contentFiles/cs/any/Ported-net.cs" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Airline" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
@@ -10,6 +14,9 @@
         <e p="App.xaml.cs" t="Include" />
         <e p="Assets" t="Include">
           <e p="avalonia-logo.ico" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="AirlineBootstrapper.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="ViewLocator.cs" t="Include" />
@@ -25,13 +32,183 @@
         <e p="nuget.config" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.0" t="Include">
+            <e p="netcoreapp2.1" t="Include">
               <e p="Airline.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
       </e>
       <e p="Airline.sln" t="IncludeFlat" />
+      <e p="Prism.Avalonia" t="IncludeRecursive">
+        <e p="Bootstrapper.cs" t="Include" />
+        <e p="Common" t="Include">
+          <e p="ListDictionary.cs" t="Include" />
+          <e p="MvvmHelpers.cs" t="Include" />
+          <e p="ObservableObject.cs" t="Include" />
+          <e p="UriParsingHelper.cs" t="Include" />
+        </e>
+        <e p="Events" t="Include">
+          <e p="WeakDelegatesManager.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="CollectionExtensions.cs" t="Include" />
+          <e p="ExceptionExtensions.cs" t="Include" />
+          <e p="ServiceLocatorExtensions.cs" t="Include" />
+        </e>
+        <e p="Logging" t="Include">
+          <e p="TextLogger.cs" t="Include" />
+          <e p="TraceLogger.cs" t="Include" />
+        </e>
+        <e p="Modularity" t="Include">
+          <e p="AssemblyResolver.Desktop.cs" t="Include" />
+          <e p="ConfigurationModuleCatalog.Desktop.cs" t="Include" />
+          <e p="ConfigurationStore.Desktop.cs" t="Include" />
+          <e p="CyclicDependencyFoundException.Desktop.cs" t="Include" />
+          <e p="CyclicDependencyFoundException.cs" t="Include" />
+          <e p="DuplicateModuleException.Desktop.cs" t="Include" />
+          <e p="DuplicateModuleException.cs" t="Include" />
+          <e p="FileModuleTypeLoader.Desktop.cs" t="Include" />
+          <e p="IAssemblyResolver.Desktop.cs" t="Include" />
+          <e p="IConfigurationStore.Desktop.cs" t="Include" />
+          <e p="IModule.cs" t="Include" />
+          <e p="IModuleCatalog.cs" t="Include" />
+          <e p="IModuleCatalogItem.cs" t="Include" />
+          <e p="IModuleInitializer.cs" t="Include" />
+          <e p="IModuleManager.cs" t="Include" />
+          <e p="IModuleTypeLoader.cs" t="Include" />
+          <e p="InitializationMode.cs" t="Include" />
+          <e p="LoadModuleCompletedEventArgs.cs" t="Include" />
+          <e p="ModularityException.Desktop.cs" t="Include" />
+          <e p="ModularityException.cs" t="Include" />
+          <e p="ModuleAttribute.Desktop.cs" t="Include" />
+          <e p="ModuleCatalog.cs" t="Include" />
+          <e p="ModuleConfigurationElement.Desktop.cs" t="Include" />
+          <e p="ModuleConfigurationElementCollection.Desktop.cs" t="Include" />
+          <e p="ModuleDependencyAttribute.Desktop.cs" t="Include" />
+          <e p="ModuleDependencyCollection.Desktop.cs" t="Include" />
+          <e p="ModuleDependencyConfigurationElement.Desktop.cs" t="Include" />
+          <e p="ModuleDependencySolver.cs" t="Include" />
+          <e p="ModuleDownloadProgressChangedEventArgs.cs" t="Include" />
+          <e p="ModuleInfo.Desktop.cs" t="Include" />
+          <e p="ModuleInfo.cs" t="Include" />
+          <e p="ModuleInfoGroup.cs" t="Include" />
+          <e p="ModuleInfoGroupExtensions.cs" t="Include" />
+          <e p="ModuleInitializeException.Desktop.cs" t="Include" />
+          <e p="ModuleInitializeException.cs" t="Include" />
+          <e p="ModuleInitializer.cs" t="Include" />
+          <e p="ModuleManager.Desktop.cs" t="Include" />
+          <e p="ModuleManager.cs" t="Include" />
+          <e p="ModuleNotFoundException.Desktop.cs" t="Include" />
+          <e p="ModuleNotFoundException.cs" t="Include" />
+          <e p="ModuleState.cs" t="Include" />
+          <e p="ModuleTypeLoaderNotFoundException.Desktop.cs" t="Include" />
+          <e p="ModuleTypeLoaderNotFoundException.cs" t="Include" />
+          <e p="ModuleTypeLoadingException.Desktop.cs" t="Include" />
+          <e p="ModuleTypeLoadingException.cs" t="Include" />
+          <e p="ModulesConfigurationSection.Desktop.cs" t="Include" />
+        </e>
+        <e p="Mvvm" t="Include">
+          <e p="ViewModelLocator.cs" t="Include" />
+        </e>
+        <e p="Prism.Avalonia.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="Regions" t="Include">
+          <e p="AllActiveRegion.cs" t="Include" />
+          <e p="Behaviors" t="Include">
+            <e p="AutoPopulateRegionBehavior.cs" t="Include" />
+            <e p="BindRegionContextToDependencyObjectBehavior.cs" t="Include" />
+            <e p="ClearChildViewsRegionBehavior.cs" t="Include" />
+            <e p="DelayedRegionCreationBehavior.cs" t="Include" />
+            <e p="IHostAwareRegionBehavior.cs" t="Include" />
+            <e p="RegionActiveAwareBehavior.cs" t="Include" />
+            <e p="RegionCreationException.Desktop.cs" t="Include" />
+            <e p="RegionCreationException.cs" t="Include" />
+            <e p="RegionMemberLifetimeBehavior.cs" t="Include" />
+            <e p="SyncRegionContextWithHostBehavior.cs" t="Include" />
+          </e>
+          <e p="ContentControlRegionAdapter.cs" t="Include" />
+          <e p="DefaultRegionManagerAccessor.cs" t="Include" />
+          <e p="IConfirmNavigationRequest.cs" t="Include" />
+          <e p="IJournalAware.cs" t="Include" />
+          <e p="INavigateAsync.cs" t="Include" />
+          <e p="INavigationAware.cs" t="Include" />
+          <e p="IRegion.cs" t="Include" />
+          <e p="IRegionAdapter.cs" t="Include" />
+          <e p="IRegionBehavior.cs" t="Include" />
+          <e p="IRegionBehaviorCollection.cs" t="Include" />
+          <e p="IRegionBehaviorFactory.cs" t="Include" />
+          <e p="IRegionCollection.cs" t="Include" />
+          <e p="IRegionManager.cs" t="Include" />
+          <e p="IRegionManagerAccessor.cs" t="Include" />
+          <e p="IRegionMemberLifetime.cs" t="Include" />
+          <e p="IRegionNavigationContentLoader.cs" t="Include" />
+          <e p="IRegionNavigationJournal.cs" t="Include" />
+          <e p="IRegionNavigationJournalEntry.cs" t="Include" />
+          <e p="IRegionNavigationService.cs" t="Include" />
+          <e p="IRegionViewRegistry.cs" t="Include" />
+          <e p="IViewsCollection.cs" t="Include" />
+          <e p="ItemMetadata.cs" t="Include" />
+          <e p="NavigationAsyncExtensions.cs" t="Include" />
+          <e p="NavigationContext.cs" t="Include" />
+          <e p="NavigationParameters.cs" t="Include" />
+          <e p="NavigationResult.cs" t="Include" />
+          <e p="Region.cs" t="Include" />
+          <e p="RegionAdapterBase.cs" t="Include" />
+          <e p="RegionAdapterMappings.cs" t="Include" />
+          <e p="RegionBehavior.cs" t="Include" />
+          <e p="RegionBehaviorCollection.cs" t="Include" />
+          <e p="RegionBehaviorFactory.cs" t="Include" />
+          <e p="RegionContext.cs" t="Include" />
+          <e p="RegionManager.cs" t="Include" />
+          <e p="RegionMemberLifetimeAttribute.cs" t="Include" />
+          <e p="RegionNavigationContentLoader.cs" t="Include" />
+          <e p="RegionNavigationEventArgs.cs" t="Include" />
+          <e p="RegionNavigationFailedEventArgs.cs" t="Include" />
+          <e p="RegionNavigationJournal.cs" t="Include" />
+          <e p="RegionNavigationJournalEntry.cs" t="Include" />
+          <e p="RegionNavigationService.cs" t="Include" />
+          <e p="RegionViewRegistry.cs" t="Include" />
+          <e p="SingleActiveRegion.cs" t="Include" />
+          <e p="SyncActiveStateAttribute.cs" t="Include" />
+          <e p="UpdateRegionsException.Desktop.cs" t="Include" />
+          <e p="UpdateRegionsException.cs" t="Include" />
+          <e p="ViewRegisteredEventArgs.cs" t="Include" />
+          <e p="ViewRegistrationException.Desktop.cs" t="Include" />
+          <e p="ViewRegistrationException.cs" t="Include" />
+          <e p="ViewSortHintAttribute.cs" t="Include" />
+          <e p="ViewsCollection.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Prism.Avalonia.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Prism.DryIoc.Avalonia" t="IncludeRecursive">
+        <e p="DryIocBootstrapper.cs" t="Include" />
+        <e p="DryIocExtensions.cs" t="Include" />
+        <e p="DryIocServiceLocatorAdapter.cs" t="Include" />
+        <e p="GlobalSuppressions.cs" t="Include" />
+        <e p="Prism.DryIoc.Avalonia.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Prism.DryIoc.Avalonia.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>

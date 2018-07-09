@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp2.0</TargetFramework>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
     </PropertyGroup>
     <ItemGroup>
         <Compile Update="**\*.xaml.cs">
@@ -22,7 +22,7 @@
         <PackageReference Include="Prism.Core" Version="7.0.0.396" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\..\Prism.Avalonia\src\Prism.Avalonia\Prism.Avalonia.csproj" />
-      <ProjectReference Include="..\..\Prism.Avalonia\src\Prism.DryIoc.Avalonia\Prism.DryIoc.Avalonia.csproj" />
+      <ProjectReference Include="..\Prism.Avalonia\Prism.Avalonia.csproj" />
+      <ProjectReference Include="..\Prism.DryIoc.Avalonia\Prism.DryIoc.Avalonia.csproj" />
     </ItemGroup>
 </Project>

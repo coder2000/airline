@@ -1,0 +1,51 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/dieter/Projects/Airline/Prism.DryIoc.Avalonia/Prism.DryIoc.Avalonia.csproj",
+    "projectName": "Prism.DryIoc.Avalonia",
+    "projectPath": "/home/dieter/Projects/Airline/Prism.DryIoc.Avalonia/Prism.DryIoc.Avalonia.csproj",
+    "outputPath": "/home/dieter/Projects/Airline/Prism.DryIoc.Avalonia/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "/home/dieter/Projects/Airline/Prism.Avalonia/Prism.Avalonia.csproj": {
+            "projectPath": "/home/dieter/Projects/Airline/Prism.Avalonia/Prism.Avalonia.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "DryIoc": {
+          "target": "Package",
+          "version": "[2.12.5, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

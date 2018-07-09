@@ -1,0 +1,14 @@
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/bin/Debug/netstandard2.0/Prism.DryIoc.Avalonia.deps.json
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/bin/Debug/netstandard2.0/Prism.DryIoc.Avalonia.dll
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/bin/Debug/netstandard2.0/Prism.DryIoc.Avalonia.pdb
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/bin/Debug/netstandard2.0/Prism.Avalonia.dll
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/bin/Debug/netstandard2.0/Prism.Avalonia.pdb
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/obj/Debug/netstandard2.0/Prism.DryIoc.Avalonia.csprojAssemblyReference.cache
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/obj/Debug/netstandard2.0/Prism.DryIoc.Avalonia.Properties.Resources.resources
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/obj/Debug/netstandard2.0/Prism.DryIoc.Avalonia.csproj.GenerateResource.cache
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/obj/Debug/netstandard2.0/Prism.DryIoc.Avalonia.csproj.CoreCompileInputs.cache
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/obj/Debug/netstandard2.0/Prism.DryIoc.Avalonia.AssemblyInfoInputs.cache
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/obj/Debug/netstandard2.0/Prism.DryIoc.Avalonia.AssemblyInfo.cs
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/obj/Debug/netstandard2.0/Prism.DryIoc.Avalonia.csproj.CopyComplete
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/obj/Debug/netstandard2.0/Prism.DryIoc.Avalonia.dll
+/home/dieter/Projects/Prism.Avalonia/src/Prism.DryIoc.Avalonia/obj/Debug/netstandard2.0/Prism.DryIoc.Avalonia.pdb
