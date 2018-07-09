@@ -4,7 +4,6 @@ using Airline.Views;
 using Avalonia;
 using Avalonia.Controls;
 using DryIoc;
-using DryIoc.MefAttributedModel;
 using Prism.DryIoc;
 
 namespace Airline.Infrastructure
@@ -13,14 +12,9 @@ namespace Airline.Infrastructure
     {
         private AppBuilder _appBuilder;
 
-        protected override IContainer CreateContainer()
-        {
-            return new Container().WithMefAttributedModel();
-        }
-
         protected override void ConfigureContainer()
         {
-            Container.RegisterExports(new List<Assembly>{typeof(AirlineBootstrapper).Assembly});
+            Container.Register<MainWindow>();
 
             base.ConfigureContainer();
         }
