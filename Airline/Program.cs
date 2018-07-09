@@ -1,8 +1,5 @@
-﻿using System;
-using Avalonia;
+﻿using Avalonia;
 using Avalonia.Logging.Serilog;
-using Airline.ViewModels;
-using Airline.Views;
 using Airline.Infrastructure;
 
 namespace Airline
@@ -18,8 +15,8 @@ namespace Airline
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
+                .SetupWithoutStarting()
                 .UseReactiveUI()
-                .LogToDebug()
-                .SetupWithoutStarting();
+                .LogToDebug();
     }
 }

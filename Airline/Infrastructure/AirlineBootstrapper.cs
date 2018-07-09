@@ -19,7 +19,7 @@ namespace Airline.Infrastructure
 
         protected override void InitializeShell()
         {
-            _appBuilder.Start(base.Shell as Window);
+            _appBuilder.Start(Shell as Window);
         }
     }
 }
