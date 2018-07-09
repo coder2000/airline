@@ -10,11 +10,18 @@
         <EmbeddedResource Include="**\*.xaml">
             <SubType>Designer</SubType>
         </EmbeddedResource>
-        <EmbeddedResource Include="Assets\*"/>
+        <EmbeddedResource Include="Assets\*" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Avalonia" Version="0.6.1"/>
-        <PackageReference Include="Avalonia.Desktop" Version="0.6.1"/>
-        <PackageReference Include="Avalonia.ReactiveUI" Version="0.6.1"/>
+        <PackageReference Include="Avalonia" Version="0.6.1" />
+        <PackageReference Include="Avalonia.Desktop" Version="0.6.1" />
+        <PackageReference Include="Avalonia.ReactiveUI" Version="0.6.1" />
+        <PackageReference Include="DryIoc" Version="3.0.1" />
+        <PackageReference Include="Microsoft.Composition" Version="1.0.31" />
+        <PackageReference Include="Prism.Core" Version="7.0.0.396" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\..\Prism.Avalonia\src\Prism.Avalonia\Prism.Avalonia.csproj" />
+      <ProjectReference Include="..\..\Prism.Avalonia\src\Prism.DryIoc.Avalonia\Prism.DryIoc.Avalonia.csproj" />
     </ItemGroup>
 </Project>
