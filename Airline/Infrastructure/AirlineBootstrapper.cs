@@ -1,16 +1,25 @@
+using Airline.Views;
+using Avalonia;
+using Avalonia.Controls;
+using DryIoc;
 using Prism.DryIoc;
 
-namespace Airline.Infrastructure {
+namespace Airline.Infrastructure
+{
     public class AirlineBootstrapper : DryIocBootstrapper
     {
-        public override void Run(bool runWithDefaultConfiguration)
+        private AppBuilder _appBuilder;
+
+        protected override IAvaloniaObject CreateShell()
         {
-            throw new System.NotImplementedException();
+            _appBuilder = Program.BuildAvaloniaApp();
+
+            return Container.Resolve<MainWindow>();
         }
 
-        protected override void ConfigureServiceLocator()
+        protected override void InitializeShell()
         {
-            throw new System.NotImplementedException();
+            _appBuilder.Start(base.Shell as Window);
         }
     }
 }

@@ -8,6 +8,7 @@ namespace Airline
         public override void Initialize()
         {
             AvaloniaXamlLoader.Load(this);
+            base.Initialize();
         }
     }
 }
