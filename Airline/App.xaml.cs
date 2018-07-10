@@ -3,7 +3,7 @@ using Avalonia.Markup.Xaml;
 
 namespace Airline
 {
-    public class App : Application
+    public partial class App : Application
     {
         public override void Initialize()
         {

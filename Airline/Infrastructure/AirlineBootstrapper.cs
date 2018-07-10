@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Reflection;
+using Airline.ViewModels;
 using Airline.Views;
 using Avalonia;
 using Avalonia.Controls;
@@ -14,7 +15,8 @@ namespace Airline.Infrastructure
 
         protected override void ConfigureContainer()
         {
-            Container.Register<MainWindow>();
+            Container.Register<MainWindow>(Reuse.Singleton);
+            Container.Register<MainWindowViewModel>();
 
             base.ConfigureContainer();
         }
